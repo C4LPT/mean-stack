@@ -1,5 +1,5 @@
 {
-    "db": "mongodb://philipjhart:mongohqsh1t@paulo.mongohq.com:10058/meandb",
+    "db": "mongodb://mean:streets@paulo.mongohq.com:10058/meandb",
     "app": {
         "name": "MEAN - A Modern Stack - Development"
     },
