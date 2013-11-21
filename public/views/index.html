@@ -1,3 +1,7 @@
-<section data-ng-controller="IndexController">
-	<h1>This is the home view</h1>
+<section data-ng-controller="ArticlesController" data-ng-init="find()">
+	<ul class="articles unstyled">
+		<li data-ng-repeat="article in articles">
+			<h2><a data-ng-href="#!/articles/{{article._id}}">{{article.title}}</a></h2>
+		</li>
+	</ul>
 </section>
